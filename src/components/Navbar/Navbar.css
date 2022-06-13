@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Prata&family=Quicksand:wght@300&display=swap');
+
+.navlist {
+    text-decoration: none;
+    list-style: none;
+    font-family:'Fredericka the Great', cursive; ;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: space-between;
+    margin-right: 20px;
+}
+
+.nav-item {
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black ;
+}
+
+.nav-item:hover {
+    color: #FDA65D;
+}
